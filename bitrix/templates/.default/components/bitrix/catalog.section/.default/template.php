@@ -23,7 +23,7 @@ $this->setFrameMode(true);
 							<div id="mse2_sort" role="group" class="sort-btn-reset d-none">
 							<a type="button" style="margin-left: 10px; width: 30px; display: inline-block; position: relative; z-index: 500;" data-sort="" data-dir="" class="sort sort-btn"> x</a>
 							</div>
-							
+
 	                        <!--<div class="btn-group" id="mse2_sort" role="group">
 	                        <a type="button" style="display: inline-block; position: relative; z-index: 500;" data-sort="ms|price" data-dir="asc" data-default="asc" class="sort sort-btn"> цене</a>
 	                        <a type="button" data-sort="resource|pagetitle" data-dir="asc" data-default="asc" class="sort sort-btn" > названию</a>
@@ -32,13 +32,13 @@ $this->setFrameMode(true);
 
 
 <div id="pdopage" style="float: left">
-							
+
 							<div class="rows">
 								<div itemscope="" itemtype="http://schema.org/ItemList">
 									<link itemprop="url" href="https://www.etno-butik.com/katalog-izdelij/ukrashenija/">
 									<meta itemprop="numberOfItems" content="260">
 									<div class="rows" id="mse2_results" style="display: block; float: left;">
-										
+
 
 
 
@@ -50,16 +50,16 @@ $this->setFrameMode(true);
 
 ?>
 
-<div class="box ms2_product n3-elems " itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Product" style="min-height: 365px;">
+<div class="box ms2_product n3-elems " itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Product">
 
 
 	<div class="img">
 
 <a href="<?=$arElement["DETAIL_PAGE_URL"]?>">
-<img src="<?=$arElement["PREVIEW_PICTURE"]["SRC"]?>" width="250" height="250" title="Книга " Хаджи-Муратъ""="" alt="Книга "></a>
+<img src="<?=$arElement["PREVIEW_PICTURE"]["SRC"]?>" width="100%" title="<?=$arElement["NAME"]?>" alt="<?=$arElement["NAME"]?>"></a>
 	</div>
 	<form method="post" class="ms2_form ms2_form_98">
-		<p class="name" style="min-height: 54px;">
+		<p class="name">
 <a href="<?=$arElement["DETAIL_PAGE_URL"]?>"><?=$arElement["NAME"]?></a>
 			 <span>Арт.: <?=$arElement["PROPERTIES"]["ARTNUMBER"]["VALUE"]?></span>
 		</p>
@@ -80,11 +80,11 @@ $this->setFrameMode(true);
 		<?endforeach;?>
 </p>
 		<div class="cart">
-			
-			
+
+
 
 <a href="#" class="to-cart" onclick="$('.ms2_form_98').submit(); return false;"><span onclick="yaCounter37519630.reachGoal('BUSKET'); return true;">купить</span></a>
-			
+
 			<button class="btn btn-default" type="submit" name="ms2_action" value="cart/add" style="display: none;"></button>
 			<span class="divider">&nbsp;</span>
 			<div class="msfavorites" style="float: left;" data-id="98" data-added="" data-list="like-ru" data-propkey="7ab1af95039ef98d2099cd5e3226fd1179711817">

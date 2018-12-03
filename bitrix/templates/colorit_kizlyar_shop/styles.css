@@ -97,7 +97,7 @@ a{padding:0;border:0
 ul{position:relative;left:0;top:0px !important;padding:0}#header-bottom ul.nav ul ul
 li{float:none;width:inherit}#header-bottom ul.nav ul li ul li
 a{font-size:13px;text-transform:lowercase;color:#a0a0a0 !important;text-decoration:underline;font-weight:normal}#wrapper{padding:180px
-0 220px 0;position:relative;width:100%}#wrapper.inner{padding-top:200px}#wrapper-content,.wrapper-content{position:relative;width:1200px;min-height:400px;margin:0
+0 0 0;position:relative;width:100%}#wrapper.inner{padding-top:200px}#wrapper-content,.wrapper-content{position:relative;width:1200px;/*min-height:400px;*/min-height:auto;margin:0
 auto;padding:0
 0 50px 0}.gold-bg{background:#e7d19f}.pt-50{padding-top:50px}#left-catalog{width:280px;text-align:center;background:url('/assets/templates/images/left-catalog-bg.png') repeat-x left bottom;padding:0
 0 20px 0;float:left;margin:0
@@ -174,7 +174,7 @@ solid #d2ba84;height:144px;width:302px;text-align:center}#pluses .box .inner
 0 6px 0}#pluses .box .inner
 .podtitle{color:#000;font-size:20px;line-height:22px;text-transform:uppercase;margin:0
 0 6px 0}#pluses .box .inner
-.bottom{color:#000;font-size:20px;line-height:22px}#wrapper-footer{position:absolute;bottom:0;width:100%;height:230px;font-family:'Open Sans',sans-serif}#wrapper-footer-top{width:100%;height:290px;background:#f5f4f0}#footer-top{width:1200px;position:relative;margin:0
+.bottom{color:#000;font-size:20px;line-height:22px}#wrapper-footer{/*position:absolute;*/bottom:0;width:100%;height:230px;font-family:'Open Sans',sans-serif}#wrapper-footer-top{width:100%;height:290px;background:#f5f4f0}#footer-top{width:1200px;position:relative;margin:0
 auto;color:#565d5e;height:290px}#footer-top
 a{color:#565d5e;text-decoration:underline}#footer-top a:hover{text-decoration:none}#footer-top
 .contacts{position:absolute;left:550px;top:40px}#footer-top .contacts
@@ -965,9 +965,9 @@ body #jGrowl .jGrowl-notification.ui-state-highlight.ui-corner-all.ms2-message-i
 
 #mse2_sort .sort span { color: #000000; }
 
-#mse2_sort .sort[data-dir="asc"] span:after { content: "¢Å'"; }
+#mse2_sort .sort[data-dir="asc"] span:after { content: "ï¿½ï¿½'"; }
 
-#mse2_sort .sort[data-dir="desc"] span:after { content: "¢Å""; }
+#mse2_sort .sort[data-dir="desc"] span:after { content: "ï¿½ï¿½""; }
 
 #mse2_mfilter .btn_more {
     width: 150px;

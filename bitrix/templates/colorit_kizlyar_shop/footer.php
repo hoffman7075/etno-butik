@@ -4,7 +4,7 @@ $dir = $APPLICATION->GetCurDir();
 if($dir!="/")
 {
 ?>
-
+<div class="clearfix"></div>
 </div>
 </div>
 
@@ -368,5 +368,8 @@ try {
 	</script>
 <!-- <script type="text/javascript" src="https://www.etno-butik.com/assets/components/msfavorites/js/web/default.js"></script>
 <script type="text/javascript">msfavorites.initialize();</script> -->
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/custom.js">
+
+</script>
 </body>
 </html>

@@ -6,4 +6,11 @@
 //	})
 //})
 
-widnow = $
+widnow = $;
+
+$(document).ready(function() {
+  // делаем активным родителя в каталоге
+  if ($("ul.parent .active").length > 0) {
+    $("ul.parent .active").parents("li.parent").addClass("active");
+  }
+});
