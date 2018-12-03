@@ -8,11 +8,13 @@ $APPLICATION->SetTitle("Купить ножи «Кизляр» в фирменн
 
 <?/*?>
 <div id="wrapper">
+<?*/?>
 
 			<div id="wrapper-new-slider">
-	<div id="new-slider">
-		<div class="box" style="background: url('https://www.etno-butik.com/assets/resize/b/7/b73a0858_5063ba7c.jpg') no-repeat center center;"><a href="klientskaya-sluzhba/dostavka/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/b/c/bc74c531_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/ukrashenija/sergi-i-komplektyi/avtorskie/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/8/1/81e68b87_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/suveniryi/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/c/c/ccbc5165_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/suveniryi/kartinyi/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/d/b/dbc269d8_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/oruzhie/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/6/8/682d371b_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/antikvariat/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/d/2/d2268736_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/suveniryi/roga/rog-tura-s-serebrom/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/a/d/ad8a0995_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/ukrashenija/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/0/b/0bfd0221_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/izdelia-iz-dereva/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/f/b/fb26d8e7_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/keramika/"></a></div>
-	</div>
+
+					<div id="new-slider">
+						<div class="box" style="background: url('https://www.etno-butik.com/assets/resize/b/7/b73a0858_5063ba7c.jpg') no-repeat center center;"><a href="klientskaya-sluzhba/dostavka/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/b/c/bc74c531_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/ukrashenija/sergi-i-komplektyi/avtorskie/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/8/1/81e68b87_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/suveniryi/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/c/c/ccbc5165_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/suveniryi/kartinyi/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/d/b/dbc269d8_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/oruzhie/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/6/8/682d371b_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/antikvariat/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/d/2/d2268736_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/suveniryi/roga/rog-tura-s-serebrom/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/a/d/ad8a0995_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/ukrashenija/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/0/b/0bfd0221_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/izdelia-iz-dereva/"></a></div><div class="box" style="background: url('https://www.etno-butik.com/assets/resize/f/b/fb26d8e7_5063ba7c.jpg') no-repeat center center;"><a href="katalog-izdelij/keramika/"></a></div>
+					</div>
 	<div class="arrows">
 		<a href="#" onclick="return false;" class="prev"></a>
 		<a href="#" onclick="return false;" class="next"></a>
@@ -20,7 +22,6 @@ $APPLICATION->SetTitle("Купить ножи «Кизляр» в фирменн
 	<div class="pager"></div>
 </div>
 
-<?*/?>
 			<div id="wrapper-content">
 				<!-- SUBSCRIBE COMMENT
 

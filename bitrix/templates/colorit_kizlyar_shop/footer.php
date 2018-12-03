@@ -208,7 +208,7 @@ if($dir!="/")
 
 <div id="popup-pre-order">
 	<a href="#" class="close"></a>
-	
+
 	<form action="https://www.etno-butik.com/" method="post" id="form-pre-order">
 		<p class="title">Оставьте контактные данные,<br />мы свяжемся с Вами в ближайшее время</p>
 		<input type="hidden" name="pre-order" value="1" />
@@ -216,25 +216,25 @@ if($dir!="/")
 		<input type="hidden" name="link" value="0" />
 		<input type="hidden" name="nospam:blank" value="" />
  		<input type="hidden" name="work-email" value="" />
-		
+
 		<div class="form-group">
 			<label>Ваше имя*</label>
 			<input type="text" name="name" value="" />
 			<div class="clear"></div>
 		</div>
-		
+
 		<div class="form-group">
 			<label>Телефон*</label>
 			<input type="text" name="phone" value="" />
 			<div class="clear"></div>
 		</div>
-		
+
 		<div class="form-group">
 			<label>Email</label>
 			<input type="text" name="email" value="" />
 			<div class="clear"></div>
 		</div>
-		
+
 		<div class="form-group">
 			<label></label>
 			<input type="submit" name="submit" value="Отправить" />
@@ -247,7 +247,7 @@ if($dir!="/")
 <a href="#" class="btn-top hidden">&#8963;</a>
 
 <script type="text/javascript" src="/assets/templates/js/jquery.min.js"></script>
-<script src="/assets/components/msminicartdynamic/js/web/msminicartdynamic.js"></script>
+<!-- <script src="/assets/components/msminicartdynamic/js/web/msminicartdynamic.js"></script> -->
 
 <script>
 $(document).ready(function() {
@@ -264,7 +264,7 @@ $(document).ready(function() {
 		}
 		return false;
 	});
-	
+
 	$(window).scroll(function(){
 		if($(window).scrollTop() > 500)
 		{
@@ -273,12 +273,12 @@ $(document).ready(function() {
 			$('.btn-top').addClass('hidden');
 		}
 	});
-	
+
 	$('.btn-top').click(function() {
 		$('html, body').animate({ scrollTop: 0 }, '500');
 		return false;
 	});
-	
+
 	check_slideupdown = true;
 	$('.minicart-hover').mouseover(
 		function(){
@@ -288,7 +288,7 @@ $(document).ready(function() {
 				$('.cart-product-list').slideDown('fast', function() {check_slideupdown = true});
 			}
 		});
-		
+
 	$('.minicart-hover').mouseleave (
 		function(){
 			if (check_slideupdown) {
@@ -298,7 +298,7 @@ $(document).ready(function() {
 			}
 		}
 	);
-	
+
 	$('.to-cart').on('click', function() {
 		if ($('.cart-product-list').css('display') != 'block') {
 			setTimeout(function() {check_slideupdown = false; $('.cart-product-list').stop(true, false).slideDown('fast', function() {check_slideupdown = true});}, 1000);
@@ -313,12 +313,11 @@ $(document).ready(function() {
 $('.sort-btn').click(function() {});
 </script>
 
-
-<script type="text/javascript" src="/min/?g=js"></script>
+<script type="text/javascript" src="/assets/templates/js/g.js"></script>
 
 <!-- change prewieImage in topMenu -->
 <script type="text/javascript">
-	
+
 
 $('#menu-8.first>ul').css('width','700px');
 $('#menu-52.first>ul').css('width','700px');
@@ -367,7 +366,7 @@ try {
 			mSearch2.Form.initialize("form.msearch2");
 		}
 	</script>
-<script type="text/javascript" src="https://www.etno-butik.com/assets/components/msfavorites/js/web/default.js"></script>
-<script type="text/javascript">msfavorites.initialize();</script>
+<!-- <script type="text/javascript" src="https://www.etno-butik.com/assets/components/msfavorites/js/web/default.js"></script>
+<script type="text/javascript">msfavorites.initialize();</script> -->
 </body>
 </html>
