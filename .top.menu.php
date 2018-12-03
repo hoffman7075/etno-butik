@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О нас", 
+		"/o-nas/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Статьи", 
+		"/stati/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Народные промыслы", 
+		"/narodnyie-promyislyi/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/otzyivyi/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Клиентам", 
+		"/klientskaya-sluzhba/oformlenie-zakaza/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/kontaktyi/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

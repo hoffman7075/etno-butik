@@ -1,0 +1,38 @@
+.happynewyearForm.oldBrowser .inputRange span{
+	display: none;
+}
+
+.happynewyearForm .inputRange {
+	display: flex;
+}
+.happynewyearForm .inputRange span{
+	margin: auto 0;
+}
+.happynewyearForm .inputRange span.val{
+	margin-right: 8px;
+	font-size: large;
+	width: 30px;
+}
+
+.happynewyearForm .bx-colpic-button{
+	background-position: -280px -21px;
+}
+
+.happynewyearForm .inputFile > img{
+	max-height: 100px;
+	max-width: 100px;
+}
+
+.happynewyearForm .inputFile > *{
+	display: block;
+	margin: 8px;
+}
+
+.happynewyearForm .inputFile > label{
+	display: flex;
+}
+
+.happynewyearForm .inputFile > label *{
+	margin: auto 0px;
+	margin-right: 8px;
+}

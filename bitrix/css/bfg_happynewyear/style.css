@@ -1,0 +1,54 @@
+#bfg_happynewyear_particles-js{
+	position:fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	z-index: 1000;
+}
+
+.bfg_happynewyear_Postcard{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+	display: flex;
+}
+
+.bfg_happynewyear_Postcard > div:first-child{
+	width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+	position: fixed;
+}
+
+.bfg_happynewyear_Postcard > div:last-child{
+	width: 50%;
+    height: 50%;
+    margin: auto;
+	display: flex;
+}
+
+.bfg_happynewyear_Postcard > div > div{
+    height: 100%;
+	position: relative;
+	margin: auto;
+	display:inline-block;
+}
+
+.bfg_happynewyear_Postcard img{
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.bfg_happynewyear_Postcard a{
+	position: absolute;
+    top: 0;
+    display: block;
+    right: 0;
+}
+

@@ -1,0 +1,176 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+
+/* Examples (uncomment to use):*/
+
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+
+
+.feedback {
+	background: url(../img/back-feedback.png) center center no-repeat;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.feedback-area {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.feedback-item {
+	width: 27%;
+}
+
+.feedback-item__center {
+	width: 30%;
+}
+
+.feedback-baloon {
+	padding: 40px 45px 40px 70px;
+	background: #e5e5e5;
+	color: #989898;
+	position: relative;
+	height: 150px;
+	margin-bottom: 40px;
+}
+
+
+.feedback-baloon:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(229, 229, 229, 0);
+	border-top-color: #e5e5e5;
+	border-width: 15px;
+	margin-left: -15px;
+}
+
+.feedback-baloon__center {
+	background: #f77e3e;
+	color: #fff;
+	height: 200px;
+}
+
+.feedback-baloon__center:after {
+	border-top-color: #f77e3e;
+}
+
+.feedback-baloon .feedback-text {
+	color: #989898;
+}
+
+.feedback-baloon__center .feedback-text {
+	color: #fff;
+
+}
+
+.feedback-text {
+	position: relative;
+}
+
+.feedback-text:before {
+	content: "";
+	display: block;
+	position: absolute;
+	background: url(../img/quotes-gray.png);
+	width: 44px;
+	height: 27px;
+	top: -12px;
+	left: -50px;
+}
+
+.feedback-baloon__center .feedback-text:before {
+	background: url(../img/quotes-white.png);
+}
+
+.feedback-baloon .soc {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+}
+
+.feedback-baloon .soc li {
+	display: inline-block;
+	margin-left: 10px;
+	list-style-type: none
+}
+
+.feedback-baloon .soc li:before {
+	content: "";
+}
+
+.feedback-baloon .soc li a {
+	display: block;
+}
+
+.soc-fb {
+	background: url(../img/fb-icon-gray.png) center center no-repeat;
+	width: 10px;
+	height: 19px;
+}
+
+.soc-fb-w {
+	background: url(../img/fb-icon-white.png) center center no-repeat;
+	width: 10px;
+	height: 19px;
+}
+
+.soc-tw {
+	background: url(../img/tw-icon.png) center center no-repeat;
+	width: 18px;
+	height: 15px;
+}
+
+ul.soc a:hover {
+    filter: brightness(100);
+}
+
+.feedback-img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: 100%;
+	overflow: hidden;
+}
+
+.feedback-img img {
+	width: 100%;
+}
+
+/*.feedback-item:nth-child(1) .feedback-img {
+	background: url(../img/feedback-img-1.png) center center no-repeat;
+}
+
+.feedback-item:nth-child(2) .feedback-img {
+	background: url(../img/feedback-img-2.png) center center no-repeat;
+}
+
+.feedback-item:nth-child(3) .feedback-img {
+	background: url(../img/feedback-img-3.png) center center no-repeat;
+}
+*/
+
+.feedback-name {
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #333;
+	font-weight: bold;
+}

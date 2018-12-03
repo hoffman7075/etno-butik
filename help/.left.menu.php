@@ -1,0 +1,67 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Клиентам", 
+		"/help/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Условия приобретения холодного оружия", 
+		"/help/usloviya-priobreteniya-kholodnogo-oruzhiya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Гарантия и возврат", 
+		"/help/warranty/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оплата", 
+		"/help/payment/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доставка", 
+		"/help/delivery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Индивидуальная гравировка", 
+		"/help/individualnaya-gravirovka/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сотрудничество", 
+		"/help/sotrudnichestvo/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Производство", 
+		"/proizvodstvo/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Реквизиты", 
+		"/help/rekvizity/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

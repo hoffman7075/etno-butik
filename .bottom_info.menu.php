@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Оплата", 
+		"/klientskaya-sluzhba/oplata/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доставка", 
+		"/klientskaya-sluzhba/dostavka/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Гарантия", 
+		"/klientskaya-sluzhba/garantiya/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

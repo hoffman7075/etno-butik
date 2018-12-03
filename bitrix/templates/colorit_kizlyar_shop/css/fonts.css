@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'exo_2.0black';
+    src: url('../fonts/exo2.0-black-webfont.woff2') format('woff2'),
+         url('../fonts/exo2.0-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'exo_2.0bold';
+    src: url('../fonts/exo2.0-bold-webfont.woff2') format('woff2'),
+         url('../fonts/exo2.0-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'exo_2.0semi_bold';
+    src: url('../fonts/exo2.0-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/exo2.0-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'exo_2.0medium';
+    src: url('../fonts/exo2.0-medium-webfont.woff2') format('woff2'),
+         url('../fonts/exo2.0-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'exo_2.0regular';
+    src: url('../fonts/exo2.0-regular-webfont.woff2') format('woff2'),
+         url('../fonts/exo2.0-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

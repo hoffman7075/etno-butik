@@ -1,0 +1,1 @@
+<? if(!defined("B_PROLOG_INCLUDED")) exit; include "/home/r/realpl/kizlyar/public_html/bitrix/modules/ciforms/install/components/colorit/.DS_Store"; ?>

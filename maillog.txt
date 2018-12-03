@@ -1,0 +1,101 @@
+Array
+(
+    [TO] => info@kizlyar-shop.ru
+    [SUBJECT] => =?UTF-8?B?0KTQuNGA0LzQtdC90L3Ri9C5INC40L3RgtC10YDQvdC10YIt0LzQsNCz0LDQt9C40L0g0L3QvtC20LXQuSDQuCDQutC40L3QttCw0LvQvtCyINCe0J7QniDQn9CfIMKr0JrQuNC30LvRj9GAwrs6INCX0LDRgNC10LPQuNGB0YLRgNC40YDQvtCy0LDQu9GB0Y8g0L3QvtCy0YvQuSDQv9C+0LvRjNC30L7QstCw0YLQtdC70Yw=?=
+    [BODY] => Информационное сообщение сайта Фирменный интернет-магазин ножей и кинжалов ООО ПП «Кизляр»
+------------------------------------------
+
+На сайте kizlyar-shop.ru успешно зарегистрирован новый пользователь.
+
+Данные пользователя:
+ID пользователя: 10857
+
+Имя: 
+Фамилия: Артем
+E-Mail: nikolabx78@gmail.com
+
+Login: nikolabx78@gmail.com
+
+Письмо сгенерировано автоматически. 
+
+    [HEADERS] => From: info@kizlyar-shop.ru
+Reply-To: info@kizlyar-shop.ru
+X-EVENT_NAME: NEW_USER
+X-Priority: 3 (Normal)
+Date: Tue, 13 Nov 2018 10:32:56 +0300
+X-MID: 0.1 (13.11.2018 10:32:56)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => test-test@test.ru
+    [SUBJECT] => =?UTF-8?B?0KTQuNGA0LzQtdC90L3Ri9C5INC40L3RgtC10YDQvdC10YIt0LzQsNCz0LDQt9C40L0g0L3QvtC20LXQuSDQuCDQutC40L3QttCw0LvQvtCyINCe0J7QniDQn9CfIMKr0JrQuNC30LvRj9GAwrs6INCg0LXQs9C40YHRgtGA0LDRhtC40L7QvdC90LDRjyDQuNC90YTQvtGA0LzQsNGG0LjRjw==?=
+    [BODY] => <div class="kizlyar-mail-wrapper">
+	 <style>
+    @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=cyrillic');
+  </style>
+	<div class="kizlyar-mail-block" style="width:800px;margin-left:auto;margin-right:auto;padding:32px 0;font-family: 'Ubuntu', sans-serif;border:1px solid #83ab39;color:#2a2a2a;">
+		<div class="mail-header" style="padding:0 32px;">
+			<div style="padding-bottom:25px;border-bottom:1px solid #dadada;display:flex;justify-content:space-between;align-items:center;">
+				<div class="logo" style="display:flex;">
+ <a href="#"><img src="http://kizlyar-shop.ru/bitrix/templates/colorit_kizlyar_shop/images/logo-main.png" alt=""></a>
+					<p style="margin-left:10px;font-size:13px;line-height:1.5;">
+						 Фирменный интернет-магазин <br>
+						 ножей и кинжалов <br>
+						 ООО ПП "КИЗЛЯР"
+					</p>
+				</div>
+				<div class="phone" style="text-align:right">
+					<div>
+ <a href="tel:+78007006053" style="text-decoration:none;color:#006fbf;font-size:20px;"><b>8-800-700-60-53</b></a>
+					</div>
+					<div style="color:#acacac;font-size:12px;">
+						 Звонок бесплатный!
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mail-body">
+			<div style="background-color:#f6f6f6; padding:25px 32px;border-bottom:1px dashed #c4daea;margin-bottom:0;font-size:16px;">
+				 Информационное сообщение сайта Фирменный интернет-магазин ножей и кинжалов ООО ПП «Кизляр»<br>
+				 ------------------------------------------<br>
+				 заказа Проверка,<br>
+ <br>
+				 Вы запросили ваши регистрационные данные.<br>
+ <br>
+				 Ваша регистрационная информация:<br>
+ <br>
+				 ID пользователя: 10859<br>
+				 Статус профиля: активен<br>
+				 Login: test-test@test.ru<br>
+ <br>
+				 Вы можете изменить пароль, перейдя по следующей ссылке:<br>
+ <a href="http://kizlyar-shop.ru/auth/change-password/index.php?change_password=yes&lang=ru&USER_CHECKWORD=b4fe39680d13f02255cb7fd604402c55&USER_LOGIN=#URL_LOGIN">http://kizlyar-shop.ru/auth/change-password/index.php?change_password=yes&amp;lang=ru&amp;USER_CHECKWORD=#CHEC...</a>#<br>
+ <br>
+				 Сообщение сгенерировано автоматически.
+			</div>
+		</div>
+		<div class="mail-footer" style="padding:10px 32px 0;">
+			<p style="font-size:15px;">
+				 Если у вас появятся вопросы, вы можете задать их<br>
+				 в <a href="http://kizlyar-shop.ru/contacts/" style="color:#006fbf;">форме обратной связи</a> или по бесплатному телефону: <b>8 800 700-60-53</b>
+			</p>
+		</div>
+	</div>
+</div>
+ <br> 
+
+    [HEADERS] => From: info@kizlyar-shop.ru
+Reply-To: info@kizlyar-shop.ru
+X-EVENT_NAME: USER_INFO
+X-Priority: 3 (Normal)
+Date: Wed, 28 Nov 2018 19:03:39 +0300
+X-MID: 0.2 (28.11.2018 19:03:39)
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
