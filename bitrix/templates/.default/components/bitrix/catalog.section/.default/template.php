@@ -58,7 +58,7 @@ $this->setFrameMode(true);
 <a href="<?=$arElement["DETAIL_PAGE_URL"]?>">
 <img src="<?=$arElement["PREVIEW_PICTURE"]["SRC"]?>" width="100%" title="<?=$arElement["NAME"]?>" alt="<?=$arElement["NAME"]?>"></a>
 	</div>
-	<form method="post" class="ms2_form ms2_form_98">
+	<form method="post" class="ms2_form ms2_form_<?=$arElement['ID']?>">
 		<p class="name">
 <a href="<?=$arElement["DETAIL_PAGE_URL"]?>"><?=$arElement["NAME"]?></a>
 			 <span>Арт.: <?=$arElement["PROPERTIES"]["ARTNUMBER"]["VALUE"]?></span>
@@ -83,18 +83,18 @@ $this->setFrameMode(true);
 
 
 
-<a href="#" class="to-cart" onclick="$('.ms2_form_98').submit(); return false;"><span onclick="yaCounter37519630.reachGoal('BUSKET'); return true;">купить</span></a>
-
-			<button class="btn btn-default" type="submit" name="ms2_action" value="cart/add" style="display: none;"></button>
+<a href="#" class="to-cart" onclick="$('.ms2_form_<?=$arElement['ID']?>').submit(); return false;"><span onclick="yaCounter37519630.reachGoal('BUSKET'); return true;">купить</span></a>
+			<input type="hidden" name="basket_action" value="add">
+			<button class="btn btn-default" type="submit" name="ms2_action" value="add" style="display: none;"></button>
 			<span class="divider">&nbsp;</span>
-			<div class="msfavorites" style="float: left;" data-id="98" data-added="" data-list="like-ru" data-propkey="7ab1af95039ef98d2099cd5e3226fd1179711817">
+			<div class="msfavorites" style="float: left;" data-id="<?=$arElement['ID']?>" data-added="" data-list="like-ru" data-propkey="7ab1af95039ef98d2099cd5e3226fd1179711817">
 	<a href="#" class="like no-active msfavorites-add msfavorites-link" data-text=""><span class="window">В список желаний</span></a>
 	<a href="#" class="like active msfavorites-remove msfavorites-link" data-text=""><span class="window">Убрать из желаний</span></a>
 </div>
 			<div class="clear"></div>
 		</div>
 		<div class="clear"></div>
-		<input type="hidden" name="id" value="98">
+		<input type="hidden" name="id" value="<?=$arElement['ID']?>">
 		<input type="hidden" name="count" value="1">
 		<input type="hidden" name="options" value="[]">
 	</form>

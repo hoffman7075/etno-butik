@@ -280,8 +280,7 @@ $(document).ready(function() {
 	});
 
 	check_slideupdown = true;
-	$('.minicart-hover').mouseover(
-		function(){
+	$('body').on("mouseover", ".minicart-hover", function(){
 			if (check_slideupdown) {
 				check_slideupdown = false;
 				$('.cart-product-list').stop();
@@ -289,8 +288,7 @@ $(document).ready(function() {
 			}
 		});
 
-	$('.minicart-hover').mouseleave (
-		function(){
+	$('body').on("mouseleave", ".minicart-hover", function(){
 			if (check_slideupdown) {
 				check_slideupdown = false;
 				$('.cart-product-list').stop();
