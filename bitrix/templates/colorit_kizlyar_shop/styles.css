@@ -131,7 +131,7 @@ h2{font-size:20px;font-family:'Open Sans',sans-serif;text-transform:uppercase;li
 127px 0 130px;background:url('/assets/templates/images/bg-title-left.png') no-repeat left center, url('/assets/templates/images/bg-title-right.png') no-repeat right center;display:inline-block}.catalog{font-family:'Open Sans',sans-serif}.catalog
 .box{width:250px;padding:9px;border:1px
 solid #e6e2df;float:left;margin:0
-40px 40px 0}.catalog
+40px 40px 0;float:none;display: inline-block;vertical-align: top;}.catalog
 .box.last{margin-right:0}.catalog .box
 .img{height:250px;width:250px;margin:0
 0 10px 0;position:relative}.catalog .box .img
