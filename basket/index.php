@@ -3,19 +3,17 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Корзина");
 ?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:sale.basket.basket", 
-	".default", 
+	"bitrix:sale.basket.basket",
+	".default",
 	array(
 		"COLUMNS_LIST" => array(
 			0 => "NAME",
-			1 => "DISCOUNT",
-			2 => "PROPS",
+			// 2 => "PROPS",
 			3 => "DELETE",
-			4 => "DELAY",
-			5 => "TYPE",
-			6 => "PRICE",
-			7 => "QUANTITY",
-			8 => "SUM",
+			// 4 => "DELAY",
+			// 5 => "TYPE",
+			// 7 => "QUANTITY",
+			// 8 => "SUM",
 		),
 		"OFFERS_PROPS" => array(
 		),
@@ -60,8 +58,8 @@ $APPLICATION->SetTitle("Корзина");
 	false
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.bigdata.products", 
-	"mshop_new", 
+	"bitrix:catalog.bigdata.products",
+	"mshop_new",
 	array(
 		"LINE_ELEMENT_COUNT" => "4",
 		"TEMPLATE_THEME" => "blue",
